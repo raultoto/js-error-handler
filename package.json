@@ -1,0 +1,30 @@
+{
+  "name": "js-error-handler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raultoto/js-error-handler.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raultoto/js-error-handler/issues"
+  },
+  "homepage": "https://github.com/raultoto/js-error-handler#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.23",
+    "ts-node": "^10.7.0",
+    "tslint": "^6.1.3",
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "tslint-config-airbnb": "^5.11.2"
+  }
+}
